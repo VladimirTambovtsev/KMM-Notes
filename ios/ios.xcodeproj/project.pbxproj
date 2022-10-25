@@ -10,6 +10,13 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		3BD1D2182906F5B700ABAC93 /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D2172906F5B700ABAC93 /* NoteListViewModel.swift */; };
+		3BD1D21A2906F5C900ABAC93 /* NoteListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D2192906F5C900ABAC93 /* NoteListScreen.swift */; };
+		3BD1D21C2906F9CD00ABAC93 /* HideableSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D21B2906F9CD00ABAC93 /* HideableSearchTextField.swift */; };
+		3BD1D21E2907004F00ABAC93 /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D21D2907004F00ABAC93 /* NoteItem.swift */; };
+		3BD1D220290701D100ABAC93 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D21F290701D100ABAC93 /* Colors.swift */; };
+		3BD1D223290709F000ABAC93 /* NoteDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D222290709F000ABAC93 /* NoteDetailScreen.swift */; };
+		3BD1D22529071CBE00ABAC93 /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD1D22429071CBE00ABAC93 /* NoteDetailViewModel.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		F789D96EE8426DE33C177A8A /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D000AF43AB78B10496DA34E /* Pods_ios.framework */; };
 /* End PBXBuildFile section */
@@ -18,6 +25,13 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		3BD1D2172906F5B700ABAC93 /* NoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
+		3BD1D2192906F5C900ABAC93 /* NoteListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListScreen.swift; sourceTree = "<group>"; };
+		3BD1D21B2906F9CD00ABAC93 /* HideableSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideableSearchTextField.swift; sourceTree = "<group>"; };
+		3BD1D21D2907004F00ABAC93 /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
+		3BD1D21F290701D100ABAC93 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3BD1D222290709F000ABAC93 /* NoteDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailScreen.swift; sourceTree = "<group>"; };
+		3BD1D22429071CBE00ABAC93 /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
 		6D000AF43AB78B10496DA34E /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF7B242A565900829871 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +60,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3BD1D2162906F5A300ABAC93 /* note_list */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1D2172906F5B700ABAC93 /* NoteListViewModel.swift */,
+				3BD1D2192906F5C900ABAC93 /* NoteListScreen.swift */,
+				3BD1D21B2906F9CD00ABAC93 /* HideableSearchTextField.swift */,
+				3BD1D21D2907004F00ABAC93 /* NoteItem.swift */,
+			);
+			path = note_list;
+			sourceTree = "<group>";
+		};
+		3BD1D221290709E000ABAC93 /* note_detail */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1D222290709F000ABAC93 /* NoteDetailScreen.swift */,
+				3BD1D22429071CBE00ABAC93 /* NoteDetailViewModel.swift */,
+			);
+			path = note_detail;
+			sourceTree = "<group>";
+		};
 		5CB0AF06702CEC136F6227C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +94,6 @@
 				E991847FF7E1FE526863BCBE /* Pods-ios.debug.xcconfig */,
 				C8FB38DC37019A013004C968 /* Pods-ios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,11 +118,14 @@
 		7555FF7D242A565900829871 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				3BD1D221290709E000ABAC93 /* note_detail */,
+				3BD1D2162906F5A300ABAC93 /* note_list */,
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF82242A565900829871 /* ContentView.swift */,
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
+				3BD1D21F290701D100ABAC93 /* Colors.swift */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -190,8 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD1D21E2907004F00ABAC93 /* NoteItem.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				3BD1D223290709F000ABAC93 /* NoteDetailScreen.swift in Sources */,
+				3BD1D21A2906F5C900ABAC93 /* NoteListScreen.swift in Sources */,
+				3BD1D220290701D100ABAC93 /* Colors.swift in Sources */,
+				3BD1D22529071CBE00ABAC93 /* NoteDetailViewModel.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				3BD1D2182906F5B700ABAC93 /* NoteListViewModel.swift in Sources */,
+				3BD1D21C2906F9CD00ABAC93 /* HideableSearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +370,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"shared\"",
+					"-lsqlite3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -346,6 +397,14 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-framework",
+					"\"shared\"",
+					"-lsqlite3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
